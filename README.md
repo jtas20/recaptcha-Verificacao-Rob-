@@ -1,5 +1,5 @@
 # recaptcha-Verificacao-Rob-
-recaptcha Para Verificação de Robô...
+recaptcha Para Verificação Humana...
 
 hospedagem: https://recaptcha-teste.netlify.app/
 
