@@ -1,15 +1,6 @@
-var botao = document.querySelector('#botao');
+var submitBtn = document.querySelector('#submitBtn');
 
-function VerifyHuman(){
-    var response = document.querySelector('.g-recaptcha');
-    var response = g-recaptcha.getResponse();
-
-    if(response == 0){
-        var botao = document.querySelector('#botao');
-        botao.textContent = 'erro';
-    }else{
-        var botao = document.querySelector('#botao');
-        botao.textContent = 'Sucesso';
-    }
-
+function recaptchaCallback()
+{
+   jQuery('#submitBtn').prop('disabled', false);
 }
