@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>reCAPTCHA demo: Simple page</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src='js/index.js'></script>
+    <link rel="stylesheet" href='style/index.css'>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6Ld35igkAAAAADX8eIVQ__b-0wcrWfHSzrFv2Qu0"></div>
+      <br/>
+      <input type="submit" value="Cadastrar" disabled='true' id='botao' onclick="VerifyHuman()">
+    </form>
+  </body>
+</html>
