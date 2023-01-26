@@ -1,6 +1,6 @@
 var botao = document.querySelector('#botao');
 
-function VerifyHuman(){
+function recaptchaCallback(){
     var response = grecaptcha.getResponse();
 
     if(response.length == 0){
