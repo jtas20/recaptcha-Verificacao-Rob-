@@ -1,3 +1,5 @@
 function recaptchaCallback(){
-    var botao = document.getElementById("botao").disabled = true;
+    let btnClick = document.getElementById("botao");
+    btnClick.disabled = true;
+    btnClick.textContent = 'HIBILITADO';
 }
